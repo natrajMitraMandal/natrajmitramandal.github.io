@@ -12,7 +12,7 @@ $(document).ready(function() {
 			await navigator.share(shareContext);
 			alert("Share successful.");
 		} catch(err) {
-			alert("Something went wrong.");
+			alert("Sharing failed.");
 		}
 	});
 
