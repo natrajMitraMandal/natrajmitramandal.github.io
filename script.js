@@ -6,6 +6,11 @@ $(document).ready(function() {
 		text: 'Natraj Utsav Mandal',
 		url: 'https://natrajmitramandal.github.io/'
 	};
+	
+	$("#menu-bar").click(function() {
+		$(this).toggleClass("fa-times");
+		$("#menuList").toggleClass("show");
+	});
 
 	$("#share-btn").click(async function() {
 		try {
