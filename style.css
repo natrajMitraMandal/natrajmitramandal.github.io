@@ -26,6 +26,32 @@
 	font-size: 1.3rem;
 }
 
+.custom-popup 
+{
+	display: none;
+	position: absolute;
+	width: 90%;
+	height: 300px;
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Montserrat';
+	background-color: rgba(255,255,255,1);
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.custom-popup .popup-heading 
+{
+	width: 100%;
+	background-color: rgb(255, 121, 121);
+	text-align: center;
+	padding: .7rem 0;
+	font-weight: 600;
+	color: white;
+}
+
 .menu-items
 {
 	position: absolute;
