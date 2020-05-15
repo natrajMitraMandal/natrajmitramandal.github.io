@@ -20,5 +20,9 @@ $(document).ready(function() {
 			alert("Sharing failed.");
 		}
 	});
+	
+	$(".pop").click(function() {
+		alert("Hello");
+	});
 
 });
